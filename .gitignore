@@ -44,9 +44,19 @@ yarn-error.log*
 # IDE
 .vscode/
 .idea/
+.cursor/
 *.swp
 *.swo
 
 # Cache
 .turbo/
 node-compile-cache/
+tsx-0/
+
+# Lock files (optional - include if you want to track dependencies)
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Compiled output
+*.js.map
